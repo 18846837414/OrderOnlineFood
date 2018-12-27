@@ -16,5 +16,10 @@ namespace OrderOnlineFood.Data
         }
 
        public DbSet<Restaurant> Restaurants { get; set; }
+
+        public void emptyThing()
+        {
+
+        }
     }
 }
